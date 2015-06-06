@@ -1,0 +1,168 @@
+/* Thanks to Snow77, Skalpa and Leostotch for the initial work, Dugris for help  */
+/* Mor.pho.GEN.e.sis version 2.0 by kris (http://www.xoofoo.org and http://www.frxoops.org) */
+/* file name : blocks.css (version 2.0) - 22 mai 2007 */
+
+/*========== listes dans les colonnes ==========*/
+.xo-canvas-column ul {
+	list-style-type:				none;
+	padding:							.5em;
+	margin:							0;
+}
+.xo-canvas-column ul ul {
+	padding-top:					0;
+	padding-bottom:				0;
+	padding-left:					1em;
+
+}
+/* ====== format des cellules dans les colonnes ========*/
+.xo-canvas-column .outer, .xo-canvas-column .outer td {
+	color: 							#FFFFFF;
+	background-color:				#000000;
+	border:							0 none;
+}
+.xo-canvas-column .outer, .xo-canvas-column .outer img {
+	margin:							0;
+	padding:							0;
+	border: 							1 !important;
+}
+/*===== Styles Colonne de Gauche =======*/
+#xo-canvas-leftcolumn .xo-block {
+   width: 159px;
+   margin: 0px;
+   padding-top:2px;
+   margin-right:					11px;
+   margin-bottom:					10px;
+   padding-left: 10px;
+   font-weight:bold;
+   color: #ffffff;
+}
+#xo-canvas-leftcolumn .xo-blocktitle {
+background:url(img/boxMenuH.gif) center no-repeat;
+font-weight:bold;
+text-align:center;
+font-size:13px;
+color:#76c3ff;
+margin:0;
+padding-top:0px;
+padding-bottom:0px;
+}
+#xo-canvas-leftcolumn .xo-blockcontent {
+width: 98%;
+margin-left:0%;
+padding-bottom:2px;
+font-size: 11px;
+padding-top:0px;
+padding-left: 3px;
+text-align: left;
+background-color: #000000;
+}
+* html #xo-canvas-leftcolumn .xo-blockcontent { height: 30px;}
+#xo-canvas-leftcolumn .xo-blockcontent a {
+	font-weight:bold;
+	   color: #ffffff;
+	   font-size: 9px;
+	   	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#xo-canvas-leftcolumn .xo-blockcontent a:hover {
+	color:							#fff;
+	background-color: 			inherit;
+	text-decoration: 				underline;
+}
+#xo-canvas-leftcolumn img {
+	border: 							1px solid #999;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-canvas-leftcolumn img:hover {border: 1px solid #666;}
+/*======== Styles Colonne de Droite ========*/
+#xo-canvas-rightcolumn .xo-block {
+   width: 159px;
+   margin: 0px;
+   padding-top:2px;
+   margin-right:					11px;
+   margin-bottom:					10px;
+   padding-left: 10px;
+   font-weight:bold;
+   color: #ffffff;
+}
+#xo-canvas-rightcolumn .xo-blocktitle {
+background:url(img/boxMenuH.gif) center no-repeat;
+font-weight:bold;
+text-align:center;
+font-size:13px;
+color:#76c3ff;
+margin:0;
+padding-top:0px;
+padding-bottom:0px;
+}
+#xo-canvas-rightcolumn .xo-blockcontent {
+width: 98%;
+margin-left:0%;
+padding-bottom:2px;
+font-size: 11px;
+padding-top:0px;
+padding-left: 3px;
+text-align: left;
+background-color: #000000;
+}
+* html #xo-canvas-rightcolumn .xo-blockcontent { height: 30px;}
+#xo-canvas-rightcolumn .xo-blockcontent a {
+	font-weight:bold;
+	   color: #ffffff;
+	   font-size: 9px;
+	   	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#xo-canvas-rightcolumn .xo-blockcontent a:hover {
+	color:							#fff;
+	background-color: 			inherit;
+	text-decoration: 				underline;
+}
+#xo-canvas-rightcolumn img {
+	border: 							1px solid #999;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-canvas-rightcolumn img:hover {border: 1px solid #666;}
+/* ======= Styles du "Contenu Centre" ===========*/
+#xo-page .xo-blockszone > .xo-block {
+	border:							1px solid #c6c1c1;
+}
+.xo-block ul {
+	margin:							0;
+	padding:							0;
+	list-style-type:				none;
+}
+#xo-page .xo-blockszone .xo-blocktitle {
+font-size:17px;
+color:#39629F;
+font-weight:bold;
+text-align:center;
+margin:0;
+width:100%;
+border-bottom:1px solid #ededed;
+}
+#xo-page .xo-blockszone .xo-blockcontent {
+background-color: 			inherit;
+padding-left:5px;
+}
+#xo-page .xo-blockszone .xo-blockcontent img {
+	margin: 							3px 3px 0 7px;
+	padding: 						0px;
+	border: 							0px solid #999 !important;
+}
+#xo-page .xo-blockszone .xo-blockcontent img:hover {
+	border: 							0px !important;
+	background-color: 			#fff !important;
+}
+#xo-page .xo-blockszone .xo-blockcontent a {
+	color: #39629F;
+	text-decoration: none;
+	background-color:				inherit;
+}
+#xo-page .xo-blockszone .xo-blockcontent a:hover {
+	color: #3366FF;
+	text-decoration: none;
+}
+
+
+
